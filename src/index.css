@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap');
+@import "tailwindcss";
+
+:root {
+  --bg: #F9FAFB;
+  --fg: #111827;
+  --accent: #E5E7EB;
+  --muted: #6B7280;
+
+  --bg-primary: #EEF2FF;
+  --fg-primary: #4F46E5;
+  --accent-primary: #6366F1;
+  --muted-primary: #A5B4FC;
+
+  /* Dark Mode */
+  --bg-dark: #0F1115;
+  --fg-dark: #F3F4F6;
+  --accent-dark: #1A1D23;
+  --muted-dark: #9CA3AF;
+
+  --bg-primary: #1A1E3D;
+  --fg-primary: #C7D2FE;
+  --accent-primary: #6366F1;
+  --muted-primary: #4F46E5;
+
+  /* Typography */
+  --font-body: "Geist", sans-serif;
+}
+
+@theme {
+  --color-bg: var(--bg);
+  --color-fg: var(--fg);
+  --color-accent: var(--accent);
+  --color-muted: var(--muted);
+  
+  --color-bg-primary: var(--bg-primary);
+  --color-fg-primary: var(--fg-primary);
+  --color-accent-primary: var(--accent-primary);
+  --color-muted-primary: var(--muted-primary);
+
+  --font-body: var(--font-body);
+}
+
+@custom-variant dark (&:is(.dark *));
+
+.dark {
+  --color-bg: var(--bg-dark);
+  --color-fg: var(--fg-dark);
+  --color-accent: var(--accent-dark);
+  --color-muted: var(--muted-dark);
+
+  --color-bg-primary: var(--bg-primary);
+  --color-fg-primary: var(--fg-primary);
+  --color-accent-primary: var(--accent-primary);
+  --color-muted-primary: var(--muted-primary);
+}
