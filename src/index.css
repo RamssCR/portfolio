@@ -2,26 +2,26 @@
 @import "tailwindcss";
 
 :root {
-  --bg: #F9FAFB;
-  --fg: #111827;
-  --accent: #E5E7EB;
-  --muted: #6B7280;
+  --bg: oklch(98.463% 0.00181 249.248);
+  --fg: oklch(21.009% 0.03179 264.678);
+  --accent: oklch(92.758% 0.00592 264.656);
+  --muted: oklch(55.102% 0.02343 264.389);
 
-  --bg-primary: #EEF2FF;
-  --fg-primary: #4F46E5;
-  --accent-primary: #6366F1;
-  --muted-primary: #A5B4FC;
+  --bg-primary: oklch(91% 0.08 190);
+  --fg-primary: oklch(35% 0.15 190);
+  --accent-primary: oklch(75% 0.18 190);
+  --muted-primary: oklch(65% 0.12 190);
 
   /* Dark Mode */
-  --bg-dark: #0F1115;
-  --fg-dark: #F3F4F6;
-  --accent-dark: #1A1D23;
-  --muted-dark: #9CA3AF;
+  --bg-dark: oklch(22.128% 0.01927 262.11);
+  --fg-dark: oklch(96.696% 0.00298 264.792);
+  --accent-dark: oklch(23.027% 0.0125 264.315);
+  --muted-dark: oklch(71.366% 0.01926 261.373);
 
-  --bg-primary: #1A1E3D;
-  --fg-primary: #C7D2FE;
-  --accent-primary: #6366F1;
-  --muted-primary: #4F46E5;
+  --bg-primary-dark: oklch(18% 0.04 190);
+  --fg-primary-dark: oklch(85% 0.16 190);
+  --accent-primary-dark: oklch(70% 0.20 190);
+  --muted-primary-dark: oklch(55% 0.14 190);
 
   /* Typography */
   --font-body: "Geist", sans-serif;
@@ -49,8 +49,8 @@
   --color-accent: var(--accent-dark);
   --color-muted: var(--muted-dark);
 
-  --color-bg-primary: var(--bg-primary);
-  --color-fg-primary: var(--fg-primary);
-  --color-accent-primary: var(--accent-primary);
-  --color-muted-primary: var(--muted-primary);
+  --color-bg-primary: var(--bg-primary-dark);
+  --color-fg-primary: var(--fg-primary-dark);
+  --color-accent-primary: var(--accent-primary-dark);
+  --color-muted-primary: var(--muted-primary-dark);
 }
