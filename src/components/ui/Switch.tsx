@@ -27,8 +27,8 @@ export const Switch = ({
       <SwitchPrimitive.Thumb
         data-slot="switch-thumb"
         className={classMerger(
-          'bg-light pointer-events-none block size-4 rounded-full ring-0 transition-transform',
-          'data-[state=checked]:translate-x-[calc(100%+1px)] data-[state=unchecked]:translate-x-0.75',
+          'bg-light pointer-events-none block size-3.75 rounded-full ring-0 transition-transform',
+          'data-[state=checked]:translate-x-[calc(100%+3px)] data-[state=unchecked]:translate-x-0.75',
         )}
       />
     </SwitchPrimitive.Root>
