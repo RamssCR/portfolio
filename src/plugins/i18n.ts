@@ -17,7 +17,7 @@ i18n
       order: ['navigator'],
       lookupFromPathIndex: 0,
       lookupQueryString: 'lng',
-      lookupCookie: 'meine_nanny_i18next',
+      lookupCookie: 'ramsscore_i18next',
     },
     debug: DEV,
     ns: ['default'],

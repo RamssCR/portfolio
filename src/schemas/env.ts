@@ -5,7 +5,6 @@ export const env = z.object({
   MODE: z
     .enum(['development', 'production', 'staging', 'test'])
     .default('development'),
-  TEST: z.string(),
   DEV: z.boolean(),
 })
 
