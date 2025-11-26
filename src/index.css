@@ -1,30 +1,33 @@
 @import url('https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap');
-@import "tailwindcss";
+@import 'tailwindcss';
 
 :root {
-  --bg: #F9FAFB;
-  --fg: #111827;
-  --accent: #E5E7EB;
-  --muted: #6B7280;
+  --bg: oklch(96.02% 0.00353 248.565);
+  --fg: oklch(21.009% 0.03179 264.678);
+  --accent: oklch(92.758% 0.00592 264.656);
+  --muted: oklch(55.102% 0.02343 264.389);
 
-  --bg-primary: #EEF2FF;
-  --fg-primary: #4F46E5;
-  --accent-primary: #6366F1;
-  --muted-primary: #A5B4FC;
+  --bg-primary: oklch(91% 0.08 190);
+  --fg-primary: oklch(35% 0.15 190);
+  --accent-primary: oklch(75% 0.18 190);
+  --muted-primary: oklch(65% 0.12 190);
+
+  --color-light: oklch(97.5% 0.002 250);
+  --color-dark: oklch(20% 0.03 265);
 
   /* Dark Mode */
-  --bg-dark: #0F1115;
-  --fg-dark: #F3F4F6;
-  --accent-dark: #1A1D23;
-  --muted-dark: #9CA3AF;
+  --bg-dark: oklch(19.487% 0.01554 261.595);
+  --fg-dark: oklch(96.696% 0.00298 264.792);
+  --accent-dark: oklch(23.027% 0.0125 264.315);
+  --muted-dark: oklch(76.845% 0.02021 263.031);
 
-  --bg-primary: #1A1E3D;
-  --fg-primary: #C7D2FE;
-  --accent-primary: #6366F1;
-  --muted-primary: #4F46E5;
+  --bg-primary-dark: oklch(18% 0.04 190);
+  --fg-primary-dark: oklch(85% 0.16 190);
+  --accent-primary-dark: oklch(70% 0.2 190);
+  --muted-primary-dark: oklch(61.633% 0.10575 189.083);
 
   /* Typography */
-  --font-body: "Geist", sans-serif;
+  --font-body: 'Geist', sans-serif;
 }
 
 @theme {
@@ -32,11 +35,14 @@
   --color-fg: var(--fg);
   --color-accent: var(--accent);
   --color-muted: var(--muted);
-  
-  --color-bg-primary: var(--bg-primary);
-  --color-fg-primary: var(--fg-primary);
-  --color-accent-primary: var(--accent-primary);
-  --color-muted-primary: var(--muted-primary);
+
+  --color-light: var(--color-light);
+  --color-dark: var(--color-dark);
+
+  --color-primary-bg: var(--bg-primary);
+  --color-primary-fg: var(--fg-primary);
+  --color-primary-accent: var(--accent-primary);
+  --color-primary-muted: var(--muted-primary);
 
   --font-body: var(--font-body);
 }
@@ -49,8 +55,8 @@
   --color-accent: var(--accent-dark);
   --color-muted: var(--muted-dark);
 
-  --color-bg-primary: var(--bg-primary);
-  --color-fg-primary: var(--fg-primary);
-  --color-accent-primary: var(--accent-primary);
-  --color-muted-primary: var(--muted-primary);
+  --color-primary-bg: var(--bg-primary-dark);
+  --color-primary-fg: var(--fg-primary-dark);
+  --color-primary-accent: var(--accent-primary-dark);
+  --color-primary-muted: var(--muted-primary-dark);
 }

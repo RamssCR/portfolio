@@ -48,6 +48,7 @@ export default defineConfig(({ mode }) => {
           '**/*.config.*',
           'src/main.tsx',
           'src/App.tsx',
+          'src/variants/**',
           'html/**',
           'coverage/**',
           'dist/**',
