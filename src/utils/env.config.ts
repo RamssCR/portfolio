@@ -8,9 +8,4 @@ if (!parsedEnv.success) {
   throw new Error('Invalid environment variables', { cause: parsedEnv.error })
 }
 
-export const {
-  DEV,
-  MODE,
-  TEST,
-  VITE_VERSION,
-} = parsedEnv.data
+export const { DEV, MODE, TEST, VITE_VERSION } = parsedEnv.data

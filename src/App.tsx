@@ -1,7 +1,7 @@
-import { Badge } from "@components/ui/Badge"
-import { Button } from "@components/ui/Button"
-import { Link } from "@components/ui/Link"
-import { Switch } from "@components/ui/Switch"
+import { Badge } from '@components/ui/Badge'
+import { Button } from '@components/ui/Button'
+import { Link } from '@components/ui/Link'
+import { Switch } from '@components/ui/Switch'
 
 export const App = () => {
   return (

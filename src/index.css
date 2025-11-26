@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap');
-@import "tailwindcss";
+@import 'tailwindcss';
 
 :root {
   --bg: oklch(96.02% 0.00353 248.565);
@@ -23,11 +23,11 @@
 
   --bg-primary-dark: oklch(18% 0.04 190);
   --fg-primary-dark: oklch(85% 0.16 190);
-  --accent-primary-dark: oklch(70% 0.20 190);
+  --accent-primary-dark: oklch(70% 0.2 190);
   --muted-primary-dark: oklch(61.633% 0.10575 189.083);
 
   /* Typography */
-  --font-body: "Geist", sans-serif;
+  --font-body: 'Geist', sans-serif;
 }
 
 @theme {
@@ -38,7 +38,7 @@
 
   --color-light: var(--color-light);
   --color-dark: var(--color-dark);
-  
+
   --color-primary-bg: var(--bg-primary);
   --color-primary-fg: var(--fg-primary);
   --color-primary-accent: var(--accent-primary);
