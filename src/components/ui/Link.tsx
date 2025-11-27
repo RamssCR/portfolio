@@ -5,6 +5,11 @@ type LinkProps = AnchorHTMLAttributes<HTMLAnchorElement> & {
   selected?: boolean
 }
 
+/**
+ * Renders a styled link component.
+ * @param props - The properties for the link component.
+ * @returns The Link component.
+ */
 export const Link = ({ className, selected = false, ...props }: LinkProps) => (
   <a
     className={classMerger(

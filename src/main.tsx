@@ -1,7 +1,9 @@
 import './index.css'
+import './plugins/i18n.ts'
 import { App } from './App.tsx'
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
+import { ThemeProvider } from '@providers/ThemeProvider.tsx'
 
 console.log(__APP_VERSION__)
 if (__IS_STAGING__) {
@@ -10,6 +12,8 @@ if (__IS_STAGING__) {
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
-    <App />
+    <ThemeProvider>
+      <App />
+    </ThemeProvider>
   </StrictMode>,
 )

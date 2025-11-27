@@ -1,1 +1,10 @@
-{}
+{
+  "titles": {
+    "modal": "Navigation Menu"
+  },
+  "navbar": {
+    "about": "About",
+    "projects": "Projects",
+    "experience": "Experience"
+  }
+}
