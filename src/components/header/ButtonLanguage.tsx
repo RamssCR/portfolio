@@ -22,9 +22,10 @@ export const ButtonLanguage = ({
     <Button
       variant="outline"
       aria-label={ariaLabel}
+      title={ariaLabel}
       className={classMerger(
-        'px-1.5 lg:p-2 lg:rounded-full hover:bg-transparent hover:text-primary-fg',
-        'border-transparent border-0 text-[1.4em] font-bold',
+        'px-1.5 py-0 lg:px-2 lg:py-1 lg:rounded-full',
+        'border-transparent border-0 text-[1.3em] font-bold',
       )}
       {...props}
     >

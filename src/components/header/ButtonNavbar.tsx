@@ -24,6 +24,7 @@ export const ButtonNavbar = ({
     <Button
       variant="outline"
       aria-label={ariaLabel}
+      title={ariaLabel}
       className={classMerger('px-2.5 md:hidden')}
       {...props}
     >
