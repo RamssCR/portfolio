@@ -6,5 +6,8 @@
     "about": "About",
     "projects": "Projects",
     "experience": "Experience"
+  },
+  "footer": {
+    "copyright": "RamssCore. All rights reserved."
   }
 }

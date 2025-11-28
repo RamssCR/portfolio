@@ -3,6 +3,7 @@ import { faMoon, faSun } from '@fortawesome/free-solid-svg-icons'
 import type { ComponentProps } from 'react'
 import { Button } from '@components/ui/Button'
 import { classMerger } from '@utils/classMerger'
+import { useTranslation } from 'react-i18next'
 
 type ButtonThemeProps = Omit<
   ComponentProps<typeof Button>,
@@ -15,8 +16,12 @@ export const ButtonTheme = ({
   isDarkMode = false,
   ...props
 }: ButtonThemeProps) => {
+  const { t } = useTranslation('accessibility')
+
   const { ariaLabel, icon } = {
-    ariaLabel: isDarkMode ? 'Switch to Light Mode' : 'Switch to Dark Mode',
+    ariaLabel: isDarkMode
+      ? t('triggers.close.theme')
+      : t('triggers.open.theme'),
     icon: isDarkMode ? faSun : faMoon,
   }
 

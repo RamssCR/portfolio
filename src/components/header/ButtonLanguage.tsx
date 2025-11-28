@@ -1,6 +1,7 @@
 import type { ComponentProps } from 'react'
 import { Button } from '@components/ui/Button'
 import { classMerger } from '@utils/classMerger'
+import { useTranslation } from 'react-i18next'
 
 type ButtonLanguageProps = Omit<
   ComponentProps<typeof Button>,
@@ -13,8 +14,12 @@ export const ButtonLanguage = ({
   isEnglish = false,
   ...props
 }: ButtonLanguageProps) => {
+  const { t } = useTranslation('accessibility')
+
   const { ariaLabel, icon } = {
-    ariaLabel: isEnglish ? 'Cambiar a Español' : 'Switch to English',
+    ariaLabel: isEnglish
+      ? t('triggers.close.language')
+      : t('triggers.open.language'),
     icon: isEnglish ? 'ES' : 'EN',
   }
 
