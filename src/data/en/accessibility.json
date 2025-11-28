@@ -1,0 +1,14 @@
+{
+  "triggers": {
+    "open": {
+      "theme": "Switch to dark theme",
+      "language": "Change language to Spanish",
+      "navbarModal": "Open navigation menu"
+    },
+    "close": {
+      "theme": "Switch to light theme",
+      "language": "Change language to English",
+      "navbarModal": "Close navigation menu"
+    }
+  }
+}

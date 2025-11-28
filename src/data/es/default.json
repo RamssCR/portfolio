@@ -1,1 +1,13 @@
-{}
+{
+  "titles": {
+    "modal": "Menú de Navegación"
+  },
+  "navbar": {
+    "about": "Sobre mí",
+    "projects": "Proyectos",
+    "experience": "Experiencia"
+  },
+  "footer": {
+    "copyright": "RamssCore. Todos los derechos reservados."
+  }
+}

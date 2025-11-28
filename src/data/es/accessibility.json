@@ -1,0 +1,14 @@
+{
+  "triggers": {
+    "open": {
+      "theme": "Cambiar a tema oscuro",
+      "language": "Cambiar idioma a español",
+      "navbarModal": "Abrir menú de navegación"
+    },
+    "close": {
+      "theme": "Cambiar a tema claro",
+      "language": "Cambiar idioma a inglés",
+      "navbarModal": "Cerrar menú de navegación"
+    }
+  }
+}
