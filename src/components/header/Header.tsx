@@ -1,3 +1,4 @@
+import { type Language, useChangeLanguage } from '@hooks/useChangeLanguage'
 import { ButtonNavbar } from './ButtonNavbar'
 import { ButtonTheme } from './ButtonTheme'
 import { ButtonLanguage } from './ButtonLanguage'
@@ -8,7 +9,6 @@ import { Title } from '@components/ui/Title'
 import { useToggle } from '@hooks/useToggle'
 import { useThemeContext } from '@hooks/useThemeContext'
 import { Navbar } from './Navbar'
-import { type Language, useChangeLanguage } from '@hooks/useChangeLanguage'
 import { useState } from 'react'
 
 /**
@@ -29,7 +29,7 @@ export const Header = () => {
   }
 
   return (
-    <header className="w-full border-b border-muted/20 py-4 px-5">
+    <header className="w-full fixed top-0 left-0 z-100 bg-bg border-b border-muted/20 py-4 px-5">
       <Container className="flex items-center justify-between">
         <Link href="/">
           <Title className="text-2xl md:text-3xl font-semibold text-primary-fg">
