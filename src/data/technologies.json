@@ -1,0 +1,26 @@
+{
+  "Web Applications": [
+    "React",
+    "Svelte",
+    "TypeScript",
+    "Vite.js",
+    "Next.js",
+    "TailwindCSS",
+    "GitHub Actions",
+    "CI/CD",
+    "Firebase Hosting",
+    "Express",
+    "NestJS",
+    "Postgres",
+    "MongoDB",
+    "NATS"
+  ],
+  "Desktop Applications": [
+    "C#",
+    ".NET Framework",
+    "WPF",
+    "AvaloniaUI",
+    "MVVM",
+    "Entity Framework"
+  ]
+}

@@ -29,7 +29,7 @@ export const Header = () => {
   }
 
   return (
-    <header className="w-full fixed top-0 left-0 z-100 bg-bg border-b border-muted/20 py-4 px-5">
+    <header className="w-full fixed top-0 left-0 z-100 bg-bg border-b border-muted/20 py-4 px-5 transition-colors duration-200">
       <Container className="flex items-center justify-between">
         <Link href="/">
           <Title className="text-2xl md:text-3xl font-semibold text-primary-fg">
