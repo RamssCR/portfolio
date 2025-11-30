@@ -2,7 +2,7 @@
 @import 'tailwindcss';
 
 :root {
-  --bg: oklch(96.02% 0.00353 248.565);
+  --bg: oklch(94.213% 0.00355 248.55);
   --fg: oklch(21.009% 0.03179 264.678);
   --accent: oklch(92.758% 0.00592 264.656);
   --muted: oklch(55.102% 0.02343 264.389);
@@ -51,6 +51,10 @@
 }
 
 @custom-variant dark (&:is(.dark *));
+
+html {
+  scroll-behavior: smooth;
+}
 
 .dark {
   --color-bg: var(--bg-dark);

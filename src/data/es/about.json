@@ -1,0 +1,10 @@
+{
+  "title": "Sobre Mí",
+  "Web Applications": {
+    "about": "Desarrollador de software con más de 2 años de experiencia construyendo sitios web con React, Svelte, TypeScript, Vite.js, Next.js y TailwindCSS. Hábil en la automatización de flujos de trabajo con GitHub Actions y pipelines CI/CD, mejorando la calidad del código mediante convenciones como ESLint y haciendo que el despliegue en Firebase Hosting sea más fluido y rápido.@Hábil en la construcción de servicios web como APIs RESTful y microservicios con Express y NestJS respectivamente, aprovechando herramientas como bases de datos como Postgres y MongoDB y transportadores como NATS para la comunicación entre microservicios."
+  },
+  "Desktop Applications": {
+    "about": "Hábil en el desarrollo de aplicaciones de escritorio exclusivas para Windows utilizando C#, .NET Framework y WPF, así como aplicaciones multiplataforma utilizando AvaloniaUI, aprovechando la arquitectura MVVM para un código mantenible y herramientas como Entity Framework para la gestión de bases de datos.@Hábil en la creación de interfaces atractivas e implementación de una lógica backend robusta para ofrecer experiencias de usuario sin interrupciones."
+  },
+  "skills": "Tecnologías & Habilidades"
+}
