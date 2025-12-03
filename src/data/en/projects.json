@@ -1,0 +1,12 @@
+{
+  "ecommerce-product-page": "A view product page for an e-commerce website, featuring product images, descriptions, pricing, and an add-to-cart functionality.",
+  "chatmong-app": "A real-time chat application that allows users to join chat rooms and communicate with others using WebSockets.",
+  "easybank-landing-page": "A responsive landing page for Easybank, showcasing its features and services with modern design elements.",
+  "notes-app": "A note-taking application that enables users to create, edit, and organize notes with cloud synchronization.",
+  "banking-system": "A backend banking system that manages user accounts, transactions, and security using NestJS and PostgreSQL.",
+  "fylo-landing-page": "A landing page for Fylo, highlighting its cloud storage solutions with a sleek and user-friendly interface.",
+  "view": {
+    "github": "View on GitHub",
+    "live": "View Live"
+  }
+}

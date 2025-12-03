@@ -1,6 +1,7 @@
 {
   "titles": {
-    "modal": "Navigation Menu"
+    "modal": "Navigation Menu",
+    "projects": "Featured Projects"
   },
   "navbar": {
     "about": "About",

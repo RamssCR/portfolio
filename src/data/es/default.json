@@ -1,6 +1,7 @@
 {
   "titles": {
-    "modal": "Menú de Navegación"
+    "modal": "Menú de Navegación",
+    "projects": "Proyectos Destacados"
   },
   "navbar": {
     "about": "Sobre mí",

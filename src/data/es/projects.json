@@ -1,0 +1,12 @@
+{
+  "ecommerce-product-page": "Una vista de la página de producto para un sitio web de comercio electrónico, que presenta imágenes de productos, descripciones, precios y una funcionalidad de agregar al carrito.",
+  "chatmong-app": "Una aplicación de chat en tiempo real que permite a los usuarios unirse a salas de chat y comunicarse con otros utilizando WebSockets.",
+  "easybank-landing-page": "Una página de destino receptiva para Easybank, que muestra sus características y servicios con elementos de diseño modernos.",
+  "notes-app": "Una aplicación para tomar notas que permite a los usuarios crear, editar y organizar notas con sincronización en la nube.",
+  "banking-system": "Un sistema bancario backend que gestiona cuentas de usuario, transacciones y seguridad utilizando NestJS y PostgreSQL.",
+  "fylo-landing-page": "Una página de destino para Fylo, que destaca sus soluciones de almacenamiento en la nube con una interfaz elegante y fácil de usar.",
+  "view": {
+    "github": "Ver en GitHub",
+    "live": "Ver en vivo"
+  }
+}
