@@ -1,0 +1,62 @@
+[
+  {
+    "id": "ecommerce-product-page",
+    "title": "E-commerce Product Page",
+    "links": {
+      "github": "https://github.com/RamssCR/ecommerce-product-page-main.git",
+      "live": "https://ramsscr.github.io/ecommerce-product-page-main/"
+    },
+    "technologies": ["HTML5", "Sass", "JavaScript"],
+    "image": "/images/ecommerce-product-page.jpg"
+  },
+  {
+    "id": "chatmong-app",
+    "title": "ChatMong App",
+    "links": {
+      "github": "https://github.com/RamssCR/chat-rooms-app.git",
+      "live": "https://chatmong-rc.onrender.com"
+    },
+    "technologies": ["React", "Express", "Socket.io"],
+    "image": "/images/chatmong-app.jpg"
+  },
+  {
+    "id": "easybank-landing-page",
+    "title": "Easybank Landing Page",
+    "links": {
+      "github": "https://github.com/RamssCR/easybank-landing-page.git",
+      "live": "https://easybank-landing-page-h38g.onrender.com"
+    },
+    "technologies": ["React", "TailwindCSS", "TypeScript"],
+    "image": "/images/easybank-landing-page.jpg"
+  },
+  {
+    "id": "notes-app",
+    "title": "Notes App",
+    "links": {
+      "github": "https://github.com/RamssCR/notes-app.git",
+      "live": "https://note-app-16301.web.app"
+    },
+    "technologies": ["React", "TailwindCSS", "TypeScript", "Vite.js", "Firebase Hosting", "Sentry"],
+    "image": "/images/notes-app.jpg"
+  },
+  {
+    "id": "banking-system",
+    "title": "Banking System",
+    "links": {
+      "github": "https://github.com/RamssCR/banking-system.git",
+      "live": null
+    },
+    "technologies": ["NestJS", "TypeScript", "TypeORM", "PostgreSQL", "JWT"],
+    "image": "/images/nest-related-project.webp"
+  },
+  {
+    "id": "fylo-landing-page",
+    "title": "Fylo Landing Page",
+    "links": {
+      "github": "https://github.com/RamssCR/fylo-landing-page.git",
+      "live": "https://fylo-landing-page-620e.onrender.com"
+    },
+    "technologies": ["Next.js", "React", "TailwindCSS", "TypeScript", "Render"],
+    "image": "/images/fylo-landing-page.jpg"
+  }
+]
