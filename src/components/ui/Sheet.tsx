@@ -42,7 +42,7 @@ export const Sheet = ({
           exit={{ opacity: 0 }}
           onClick={onClose}
           className={classMerger(
-            'bg-dark/50 fixed w-full h-svh top-0 left-0 flex items-start justify-start z-100',
+            'bg-dark/50 fixed w-full h-dvh top-0 left-0 flex items-start justify-start z-100',
             className,
           )}
         >
@@ -54,7 +54,7 @@ export const Sheet = ({
             transition={{ ease: 'easeInOut' }}
             className={classMerger(
               'bg-muted-shadowed relative border border-muted/20 w-full py-4 px-4',
-              'rounded-r-md max-w-[21em] sm:max-w-[23em] md:max-w-[40em] h-svh',
+              'rounded-r-md max-w-[21em] sm:max-w-[23em] md:max-w-[40em] h-dvh',
               cardClassName,
             )}
             onClick={(e) => e.stopPropagation()}

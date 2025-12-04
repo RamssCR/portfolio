@@ -1,5 +1,5 @@
-import type { ComponentProps } from 'react'
 import { Button } from '@components/ui/Button'
+import type { ComponentProps } from 'react'
 import { classMerger } from '@utils/classMerger'
 import { useTranslation } from 'react-i18next'
 
@@ -10,6 +10,11 @@ type ButtonLanguageProps = Omit<
   isEnglish?: boolean
 }
 
+/**
+ * Button to toggle language between English and Spanish.
+ * @param props - Props for the Button component excluding 'variant' and 'children'.
+ * @returns A Button component for language toggle.
+ */
 export const ButtonLanguage = ({
   isEnglish = false,
   ...props

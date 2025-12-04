@@ -1,7 +1,7 @@
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faMoon, faSun } from '@fortawesome/free-solid-svg-icons'
-import type { ComponentProps } from 'react'
 import { Button } from '@components/ui/Button'
+import type { ComponentProps } from 'react'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { classMerger } from '@utils/classMerger'
 import { useTranslation } from 'react-i18next'
 
@@ -12,6 +12,11 @@ type ButtonThemeProps = Omit<
   isDarkMode?: boolean
 }
 
+/**
+ * Button to toggle theme between dark and light mode.
+ * @param props - Props for the Button component excluding 'variant' and 'children'.
+ * @returns A Button component for theme toggle.
+ */
 export const ButtonTheme = ({
   isDarkMode = false,
   ...props

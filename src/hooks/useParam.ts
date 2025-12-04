@@ -7,6 +7,9 @@ import { useState } from 'react'
 export const useParam = () => {
   const [param, setParam] = useState<string | null>(null)
 
+  /**
+   * Updates the parameter state with the current URL hash.
+   */
   const getParam = () => {
     setTimeout(() => {
       const hash = window.location.hash.replace('#', '')

@@ -1,15 +1,15 @@
 import { type Language, useChangeLanguage } from '@hooks/useChangeLanguage'
 import { ButtonNavbar } from './ButtonNavbar'
-import { ButtonTheme } from './ButtonTheme'
 import { ButtonLanguage } from './ButtonLanguage'
+import { ButtonTheme } from './ButtonTheme'
 import { Container } from '@components/ui/Container'
 import { Link } from '@components/ui/Link'
 import { MobileNavbar } from './MobileNavbar'
-import { Title } from '@components/ui/Title'
-import { useToggle } from '@hooks/useToggle'
-import { useThemeContext } from '@hooks/useThemeContext'
 import { Navbar } from './Navbar'
+import { Title } from '@components/ui/Title'
 import { useState } from 'react'
+import { useThemeContext } from '@hooks/useThemeContext'
+import { useToggle } from '@hooks/useToggle'
 
 /**
  * Renders a header component with a title, theme toggle, and mobile navigation.
@@ -23,6 +23,9 @@ export const Header = () => {
   )
   const { changeLanguage } = useChangeLanguage(language)
 
+  /**
+   * Toggles the language between English and Spanish.
+   */
   const toggle = () => {
     setLanguage(language === 'en' ? 'es' : 'en')
     changeLanguage()

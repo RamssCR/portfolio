@@ -1,16 +1,21 @@
 import { Badge } from '@components/ui/Badge'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { Link } from '@components/ui/Link'
 import { Text } from '@components/ui/Text'
 import { Title } from '@components/ui/Title'
-import projects from '@data/projects.json'
+import { classMerger } from '@utils/classMerger'
 import { faGithub } from '@fortawesome/free-brands-svg-icons'
 import { faGlobe } from '@fortawesome/free-solid-svg-icons'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { classMerger } from '@utils/classMerger'
+import projects from '@data/projects.json'
 import { useTranslation } from 'react-i18next'
 
 type ProjectProps = (typeof projects)[number] & { description: string }
 
+/**
+ * Renders a single project item with its details.
+ * @param props - The properties of the project including title, description, links, image, and technologies.
+ * @returns A JSX element representing the project.
+ */
 export const Project = ({
   title,
   description,

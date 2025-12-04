@@ -1,9 +1,9 @@
 import { Badge } from '@components/ui/Badge'
 import { Container } from '@components/ui/Container'
+import { Network } from './Network'
 import { Text } from '@components/ui/Text'
 import { Title } from '@components/ui/Title'
 import { useTranslation } from 'react-i18next'
-import { Network } from './Network'
 
 /**
  * Renders the Hero section of the webpage.
@@ -14,7 +14,7 @@ export const Hero = () => {
 
   return (
     <section className="w-full mt-20 px-5">
-      <Container className="min-h-[75dvh] lg:min-h-[73dvh] flex flex-col justify-center items-start gap-5">
+      <Container className="min-h-[75svh] lg:min-h-[73svh] flex flex-col justify-center items-start gap-5">
         <Badge>{t('welcomeBadge')}</Badge>
         <section className="w-full flex flex-col items-start">
           <Text className="text-lg">{t('presentation')}</Text>

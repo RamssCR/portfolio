@@ -12,6 +12,11 @@ type ButtonNavbarProps = Omit<
   isOpen?: boolean
 }
 
+/**
+ * Button to toggle the navigation bar modal.
+ * @param props - Props for the Button component excluding 'variant' and 'children'.
+ * @returns A Button component for toggling the navigation bar modal.
+ */
 export const ButtonNavbar = ({
   isOpen = false,
   ...props
