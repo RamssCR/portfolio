@@ -1,11 +1,15 @@
-import { Text } from '@components/ui/Text'
+import { Container } from '@components/ui/Container'
 import { CURRENT_YEAR } from '@utils/constants'
-import { useTranslation } from 'react-i18next'
 import { Link } from '@components/ui/Link'
+import { Text } from '@components/ui/Text'
 import links from '@data/links.json'
 import { mapIcons } from '@helpers/mapIcons'
-import { Container } from '@components/ui/Container'
+import { useTranslation } from 'react-i18next'
 
+/**
+ * Footer component displaying copyright and social links.
+ * @returns JSX.Element displaying the footer section.
+ */
 export const Footer = () => {
   const { t } = useTranslation()
 

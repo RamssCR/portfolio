@@ -2,10 +2,10 @@ import type { ComponentProps } from 'react'
 import { Link } from '@components/ui/Link'
 import { Sheet } from '@components/ui/Sheet'
 import { Title } from '@components/ui/Title'
+import { classMerger } from '@utils/classMerger'
 import links from '@data/navbar.json'
 import { useTranslation } from 'react-i18next'
 import { useParam } from '@hooks/useParam'
-import { classMerger } from '@utils/classMerger'
 
 /**
  * Mobile Navigation Bar Component.

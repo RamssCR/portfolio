@@ -2,8 +2,8 @@ import type { Section } from './About'
 import { TabsContent } from '@components/ui/Tabs'
 import { Text } from '@components/ui/Text'
 import { Title } from '@components/ui/Title'
-import { useTranslation } from 'react-i18next'
 import technologies from '@data/technologies.json'
+import { useTranslation } from 'react-i18next'
 
 /**
  * Content component for the About section.

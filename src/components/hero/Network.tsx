@@ -1,8 +1,8 @@
 import { Link } from '@components/ui/Link'
 import { Text } from '@components/ui/Text'
+import { classMerger } from '@utils/classMerger'
 import links from '@data/links.json'
 import { mapIcons } from '@helpers/mapIcons'
-import { classMerger } from '@utils/classMerger'
 import { useTranslation } from 'react-i18next'
 
 export const Network = () => {

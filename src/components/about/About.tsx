@@ -5,6 +5,10 @@ import { Content } from './Content'
 const SECTIONS = ['Web Applications', 'Desktop Applications'] as const
 export type Section = (typeof SECTIONS)[number]
 
+/**
+ * Renders the About section with tabs for different types of applications.
+ * @returns JSX.Element representing the About section.
+ */
 export const About = () => {
   return (
     <section id="about" className="w-full px-5">

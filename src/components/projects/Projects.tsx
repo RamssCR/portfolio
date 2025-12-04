@@ -4,6 +4,10 @@ import { Title } from '@components/ui/Title'
 import projects from '@data/projects.json'
 import { useTranslation } from 'react-i18next'
 
+/**
+ * Renders the Projects section containing a list of project items.
+ * @returns A JSX element representing the Projects section.
+ */
 export const Projects = () => {
   const { t } = useTranslation()
   const { t: tProject } = useTranslation('projects')
