@@ -1,0 +1,7 @@
+{
+  "work-experience-1": {
+    "title": "Software Developer",
+    "endYear": "Present",
+    "description": "Improved accessibility and security across websites, increasing page visits 20% and interaction rate 15%. Created internal NPM packages for frontend and backend, standardizing conventions and reducing onboarding time 30%.@Implemented CI/CD automations with GitHub Actions, speeding deployment process and improving release frequency. Reviewed pull requests, ensuring maintainability, consistent conventions, and scalable codebases. Built applications using React, Next.js, Svelte, and TypeScript with strong unit testing coverage using Vitest and React Testing Library."
+  }
+}

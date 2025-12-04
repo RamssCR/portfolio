@@ -1,7 +1,8 @@
 {
   "titles": {
     "modal": "Navigation Menu",
-    "projects": "Featured Projects"
+    "projects": "Featured Projects",
+    "experience": "Work Experience"
   },
   "navbar": {
     "about": "About",
