@@ -1,0 +1,7 @@
+{
+  "work-experience-1": {
+    "title": "Desarrollador de Software",
+    "endYear": "Presente",
+    "description": "Mejoré la accesibilidad y seguridad en los sitios web, aumentando las visitas en un 20% y la tasa de interacción en un 15%. Creé paquetes NPM internos para frontend y backend, estandarizando convenciones y reduciendo el tiempo de incorporación en un 30%.@Implementé automatizaciones CI/CD con GitHub Actions, acelerando el proceso de despliegue y mejorando la frecuencia de lanzamientos. Revisé pull requests, asegurando la mantenibilidad, convenciones consistentes y bases de código escalables. Construí aplicaciones utilizando React, Next.js, Svelte y TypeScript con una sólida cobertura de pruebas unitarias usando Vitest y React Testing Library."
+  }
+}

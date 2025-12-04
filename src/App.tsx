@@ -1,4 +1,5 @@
 import { About } from '@components/about/About'
+import { Experiences } from '@components/experiences/Experiences'
 import { Footer } from '@components/footer/Footer'
 import { Header } from '@components/header/Header'
 import { Hero } from '@components/hero/Hero'
@@ -11,6 +12,7 @@ export const App = () => {
       <Hero />
       <About />
       <Projects />
+      <Experiences />
       <Footer />
     </main>
   )
